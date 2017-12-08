@@ -50,7 +50,13 @@ export default class LeaderboardTable extends React.Component {
   render() {
     return (
       <div>
-        <div style={Styles.outerDiv}>Leaderboard</div>
+        <div style={Styles.outerDiv}>
+          <h2 style={{ marginBottom: 0 }}>Leaderboard</h2>
+          <p style={{ marginTop: 0, fontSize: 12 }}>
+            Click on Points columns(Points in past 30 days, All time points) to
+            sort
+          </p>
+        </div>
         <table style={{ borderCollapse: "collapse", width: "100%" }}>
           <LeaderboardTableHeader onChangingOrder={this.reorder} />
           <tbody>
