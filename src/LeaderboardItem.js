@@ -12,7 +12,7 @@ const LeaderboradItem = props => {
   return (
     <tr>
       <td style={Styles.td}>{props.index}</td>
-      <td style={{ ...Styles.td, "text-align": "left" }}>
+      <td style={{ ...Styles.td, textAlign: "left" }}>
         <UserDetails userThumbnail={props.img} userName={props.username} />
       </td>
       <td style={Styles.td}>{props.recent}</td>

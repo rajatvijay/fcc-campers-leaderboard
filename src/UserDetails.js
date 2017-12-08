@@ -3,16 +3,16 @@ import React from "react";
 const Styles = {
   anchor: {
     color: "#337ab7",
-    cursor: "hand"
+    cursor: "hand",
   },
   img: {
     width: 40,
     border: "2px solid #006400",
-    "border-radius": 4,
-    "max-height": 40,
-    "margin-right": 4,
-    "vertical-align": "middle"
-  }
+    borderRadius: 4,
+    maxHeight: 40,
+    marginRight: 4,
+    verticalAlign: "middle",
+  },
 };
 
 const UserDetails = props => {
